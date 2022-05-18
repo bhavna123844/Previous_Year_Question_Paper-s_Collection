@@ -1,0 +1,388 @@
+
+
+body {
+    
+    
+
+
+           margin: 0px;
+             padding: 0px;
+   
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/***********************************************
+       Account Registartiona and Login
+***********************************************/
+.box,
+.regbox{
+    width: 320px;
+    height: 420px;
+    background: #2f3542;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    top: -22%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+
+.box h1{
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.box input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.box input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.box input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.box a:hover {
+    color: #eccc68;
+}
+
+
+
+
+.regbox .avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    top: -19%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+
+.regbox h1 {
+    margin-top: 30px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.regbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.regbox input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.regbox input[type="text"],
+.regbox input[type="password"] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.regbox input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.regbox input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.regbox a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.regbox a:hover {
+    color: #eccc68;
+}
+ 
+
+
+
+
+    .header{
+        background-color: rgb(169, 83, 226);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+    }
+        .left {
+            float: left;
+            
+            position: absolute;
+            left: 80px;
+            top: 8px;
+        }
+    
+        .left img {
+            /* height:800px;  */
+            width: 250px;
+            /* filter: invert(100%); */
+        }
+    
+        .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+    
+        .mid {
+            text-align: center;
+            padding-top: 10px;
+            
+         
+            
+        }
+
+        .mid h1{
+            color: rgb(255, 175, 25);
+        }
+    
+        .right {
+            position: absolute;
+            right: 30px;
+            top: 1px;
+            
+            /* border: 2px solid yellow; */
+        }
+    .query{
+        height: 30px;
+        width: 150px;
+        text-align: center;
+    }
+        .navbar {
+            display: inline-block;
+        }
+    
+       
+    
+    
+        
+    
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px 25px 9px;
+            background-color: rgb(91, 73, 248);
+            color: white;
+            padding: 0px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+           
+            
+        }
+
+        .btn a{
+            text-decoration: none;
+            color:white;
+        }
+    
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+        }
+    
+        .container {
+            background-color: rgba(0,0,0,0.4);
+            border: 2px solid white;
+            margin: 150px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+    
+        .form-group input {
+            font-family: serif;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid rgb(102, 110, 209);
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+    
+        .container h1 {
+            color: rgb(235, 181, 81);
+            text-align: center;
+        }
+    
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+
+   
+        /* CSS for Newpage.html */
+
+
+        .home{
+            
+            position: absolute;
+            top:25%;
+            width: 100%;
+            height: 75%;
+           
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/atc.jpg);
+            background-repeat:no-repeat ;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .img-content{
+            position: absolute;
+            top: 10%;
+        }
+
+       
+
+        
+
+
+        .head{
+            top: 0%;
+            position: fixed;
+            background-color: white;
+            width:100%;
+            z-index:99;
+            height: 180px;
+        }
+        
+        .tbl{
+            margin:10px;
+            padding:30px;
+            width:100%;
+            height:180px ;
+            text-align: center;
+        }
+        .td{
+            /* border: 2px solid black; */
+            width: 20%;
+            
+            font-size: larger;
+           
+        }
+        .td a{
+            text-decoration: none;
+            color: hsl(201, 95%, 34%);
+            font-size: 26px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        
+            
+        }
+
+        .td a:hover{
+            color: rgb(82, 81, 81);
+            font-size:29px ;
+        }
+
+   /* css for links */
+        .firstheading{
+            position: absolute;
+            top: 0%;
+            background-color:white;
+            /* height: 20px; */
+            width: 100%;
+            text-align: center;
+        }
+
+      
